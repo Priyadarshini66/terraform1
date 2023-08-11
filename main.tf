@@ -14,7 +14,7 @@ resource "aws_neptune_cluster_instance" "example" {
   engine             = "neptune"
   instance_class     = "db.r4.large"
   apply_immediately  = true
-  auto_minor_version_upgrade = false
+  
 
 
 }
